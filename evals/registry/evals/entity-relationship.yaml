@@ -1,0 +1,8 @@
+entity-relationship:
+  id: entity-relationship.dev.v0
+  metrics: [accuracy]
+
+entity-relationship.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: entity-relationship/samples.jsonl
